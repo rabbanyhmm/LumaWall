@@ -1,0 +1,11 @@
+{
+  "name": "LumaWall Integration",
+  "description": "Makes GNOME Overview transparent so LumaWall can be seen in the background.",
+  "uuid": "lumawall-integration@lumawall.org",
+  "shell-version": [
+    "45",
+    "46",
+    "47"
+  ],
+  "url": "https://github.com/lumawall/lumawall"
+}

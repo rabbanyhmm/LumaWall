@@ -1,0 +1,7 @@
+add_test([=[X11BackendTest.ConnectionLifecycleAndCapabilities]=]  /home/rabbany/Desktop/LumaWall/build_release/src/tests/lumawall_x11_tests [==[--gtest_filter=X11BackendTest.ConnectionLifecycleAndCapabilities]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[X11BackendTest.ConnectionLifecycleAndCapabilities]=]  PROPERTIES WORKING_DIRECTORY /home/rabbany/Desktop/LumaWall/build_release/src/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[X11BackendTest.WallpaperSurfaceCreation]=]  /home/rabbany/Desktop/LumaWall/build_release/src/tests/lumawall_x11_tests [==[--gtest_filter=X11BackendTest.WallpaperSurfaceCreation]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[X11BackendTest.WallpaperSurfaceCreation]=]  PROPERTIES WORKING_DIRECTORY /home/rabbany/Desktop/LumaWall/build_release/src/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[X11BackendTest.FactorySelection]=]  /home/rabbany/Desktop/LumaWall/build_release/src/tests/lumawall_x11_tests [==[--gtest_filter=X11BackendTest.FactorySelection]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[X11BackendTest.FactorySelection]=]  PROPERTIES WORKING_DIRECTORY /home/rabbany/Desktop/LumaWall/build_release/src/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  lumawall_x11_tests_TESTS X11BackendTest.ConnectionLifecycleAndCapabilities X11BackendTest.WallpaperSurfaceCreation X11BackendTest.FactorySelection)

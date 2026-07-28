@@ -1,0 +1,5 @@
+if(EXISTS "/home/rabbany/Desktop/LumaWall/build_release/src/tests/lumawall_wayland_tests[1]_tests.cmake")
+  include("/home/rabbany/Desktop/LumaWall/build_release/src/tests/lumawall_wayland_tests[1]_tests.cmake")
+else()
+  add_test(lumawall_wayland_tests_NOT_BUILT lumawall_wayland_tests_NOT_BUILT)
+endif()

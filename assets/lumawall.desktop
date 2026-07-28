@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=LumaWall
+Comment=High-performance, zero-copy video wallpaper engine for Linux
+Exec=lumawall --daemon
+Icon=lumawall
+Terminal=false
+Type=Application
+Categories=Utility;DesktopSettings;
+Keywords=Wallpaper;Video;Live;Vulkan;Wayland;X11;
+StartupNotify=false
+X-GNOME-Autostart-Phase=Desktop
